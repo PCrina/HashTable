@@ -5,8 +5,8 @@
 
 // Declarare lista simpla inlantuita
 typedef struct cellista {
-	char *info;									// informatie
-	struct cellista *urm;				// adresa campul urmator
+	char *info;		// informatie
+	struct cellista *urm;	// adresa campul urmator
 } TCelula, *TLista, **ALista;	// tipurile Celula, Lista si Adresa_Lista
 
 // Declarare functie de dispersie
@@ -15,8 +15,8 @@ typedef unsigned int (*TFHASH)(const char *str, unsigned int hash_length);
 // Declarare tabela de dispersie
 typedef struct {
 	unsigned int hash_length;	// dimensiune hash
-	TFHASH fd;								// functia de dispersie
-	TLista *v;								// vector de bucket-uri
+	TFHASH fd;			// functia de dispersie
+	TLista *v;			// vector de bucket-uri
 } TD;
 
 // OPERATII ELEMENTARE
