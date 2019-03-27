@@ -1,2 +1,2 @@
-# Mini-Shell
-Simulation of a simple shell that supports the execution of external commands with multiple arguments, internal commands, redirects, pipes and complex commands.
+# HashTable
+Implementing a hashtable that contains words and supports the following operations: add, remove, find, clear, print_bucket, print, resize double, resize halve.
